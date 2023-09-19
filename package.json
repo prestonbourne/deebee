@@ -1,0 +1,19 @@
+{
+  "name": "deebee",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/main.js",
+  "module": "dist/main.mjs",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup main.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "author": "Preston Bourne",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "tsup": "^7.2.0"
+  }
+}
